@@ -2,8 +2,8 @@
 
 # Site Settings
 title: My Resume
-url: 'http://webjeda.com'
-baseurl: '/online-cv' #change it according to your repository name
+url: 'http://localhost:4000'
+baseurl: '' #change it according to your repository name
 description: A beautiful Jekyll theme for creating resume
 # Style will be applied only after restarting the build or serve. Just choose one of the options.
 theme_skin: blue # blue turquoise green berry orange ceramic
@@ -30,5 +30,5 @@ compress_html: # - http://jch.penibelst.de/
 
 # Development Settings
 port: 4000
-host: 0.0.0.0
+host: 127.0.0.1
 safe: false
