@@ -26,8 +26,10 @@ sidebar:
 
     languages:
       - idiom: English
+        level: Professional
 
       - idiom: Chinese
+        level: Professional
 
 career-profile:
     title: Career Profile
