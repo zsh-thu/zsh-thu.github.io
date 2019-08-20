@@ -34,148 +34,117 @@ sidebar:
 career-profile:
     title: About me
     summary: |
-      Hi! Thank you for visiting my personal website. I'm Sihan Zeng, a master 
-      student of MSIT(Information Technology) program at Carnegie Mellon University.
-      I'm expected to gradutate at December 2019, and I'm actively looking for 
-      a full-time software engineer position starting in 2020.
+      Hi there~ Thank you for visiting my personal website! 
+
+      I am Sihan Zeng, a master student of MSIT (Information Technology) program at Carnegie Mellon University.
+      I am actively looking for a full-time software engineer position starting in 2020.
 
 education:
     - degree: MSc in Information Technology
-      university: Carnegie Mellon University
-      time: Aug. 2018 - Dec. 2019 (expected)
+      university: Carnegie Mellon University, Pittsburgh, US
+      time: Aug 2018 - Dec 2019
       details: |
-          - Selected courses: Search Engines(A), Introduction to Computer Systems(A),
-Distributed Systems(A), Advanced Cloud Computing(A), Computer Networks(A), Introduction to Deep Learning(A-)
+          - Selected courses: Search Engines(A), Introduction to Computer Systems(A), Distributed Systems(A), Advanced Cloud Computing(A), Computer Networks(A), Introduction to Deep Learning(A-)
           - Teaching Assistant for Search Engines
-          - Bullet point
-          - Bullet point
 
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: BEng in Electronic Engineering
+      university: Tsinghua University, Beijing, China
+      time: Aug 2014 - Jun 2018
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+          - Selected courses: Database(A+), Machine Learning(A), 
+          Data Structure and Algorithm(A), Operating System(A-)
+          - Outstanding Graduate Honor
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Software Engineer Intern
+      time: May 2019 - Aug 2019
+      company: Uber Technology, Seattle, US
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+          - Contributed to [Horovod](https://github.com/horovod/horovod), an open-source distributed training framework for Tensorflow and PyTorch.
+          - Re-designed the coordination logic to decouple from MPI and implemented an alternative based on Gloo (a collective communication framework) for aggregating gradient updates among distributed workers.
+          - Designed a rendezvous server based on HTTP protocol to launch and orchestrate jobs on distributed workers.
+          - Achieved comparable performance (distributed training speed) to MPI while empowered the ability for elastic training, i.e. distributed model training is unaffected from individual node failures or insertions.
 
-          - Bullet point
-          - Bullet point
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Software Engineer Intern
+      time: May 2017 - Sep 2017
+      company: ET International, Wilmington, USA
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+          - Designed a C++ framework for Convolutional Neural Network using codelet execution model.(https://ieeexplore.ieee.org/document/8754424)
+          - Achieved 26% faster processing speed than vanilla Tensorflow for AlexNet inference on CPU.
+          - Built APIs for users to use the framework without the knowledge of underlying execution model.
 
-          - Bullet point
-          - Bullet point
-
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+    - role: Software Engineer Intern
+      time: Sep 2016 - Mar 2017
+      company: Tencent, Beijing, China
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
+          - Designed a Markov-chain based location prediction system that uses history trajectories to predict user location.
+          - Implemented Gibbs sampling to achieve 34% higher prediction accuracy than baseline on sparse trajectories.[paper1](https://ieeexplore.ieee.org/document/8108725)[paper2](https://dl.acm.org/citation.cfm?id=3314414)
+          - Deployed on Hadoop cluster using Hadoop Streaming for production and adopted by Tencent Map Service.
 
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: Iterative Machine Learning Training on Spark
+        details: |
+          - Built an ELT preprocessing workflow to construct features on a large-scale web crawled news data.
+          - Implemented a logistic-regression model trained on billions of features to classify the news.
+          - Optimized the Spark workflow to reduce the memory usage by 3x and execution time by 2x.
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Text-oriented Search Engine
+        details: |
+          - Designed a text search engine in Java based on Lucene and supported various retrieval models, including Vector Space Model, BM25, Indri.
+          - Implemented SVM Rank to train a feature-based retrieval model to improve the quality of retrieval ranking.
+          - Implemented diversification algorithms (xQuAD and PM-2) to generate diversified retrieval results.
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Event Extraction from Medical records
+        details: |
+          - Designed an end-to-end deep learning system that consists of a CNN feature extractor and a CRF sequence labeler to extract medical events from medical record text.
+          - Proposed a smoothed Viterbi decoder with better generalization ability and less trainable parameters.
+          - Achieved 92.6% classification accuracy and 300 sentences/second prediction speed on a single 1080ti GPU.
+          - Built a demo system with UI that can classify and colorize different events for raw medical records inputs.
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
 
     papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: Toward A High-Performance Emulation Platform for Brain-Inspired Intelligent Systems
+        authors: Sihan Zeng, Jose M Monsalve Diaz, Siddhisanket Raskar
+        conference: IEEE Computer Software and Applications Conference (COMPSAC19)
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: Modeling Spatio-Temporal App Usage for a Large User Population
+        authors: Huandong Wang, Yong Li, Sihan Zeng, Gang Wang, Pengyu Zhang, Pan Hui, Depeng Jin
+        conference: ACM International Joint Conf. on Pervasive and Ubiquitous Computing (UbiComp19) 
 
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: An approach for medical event detection in Chinese clinical notes of electronic health records
+        authors: Xuesi Zhou, Haoqi Xiong, Sihan Zeng, Xiangling Fu and Ji Wu
+        conference: BMC Medical Informatics and Decision Making 2019
 
-skills:
-    title: Skills &amp; Proficiency
+      - title: Predictability and Prediction of Human Mobility Based on Application-collected Location data
+        authors: Sihan Zeng, Huandong Wang, Yong Li, and Depeng Jin
+        conference: IEEE International Conf. of Mobile and Ad Hoc Sensor Systems (MASS19)
 
-    toolset:
-      - name: Python & Django
-        level: 98%
+# skills:
+#     title: Skills &amp; Proficiency
 
-      - name: Javascript & jQuery
-        level: 98%
+#     toolset:
+#       - name: Python & Django
+#         level: 98%
 
-      - name: Angular
-        level: 98%
+#       - name: Javascript & jQuery
+#         level: 98%
 
-      - name: HTML5 & CSS
-        level: 95%
+#       - name: Angular
+#         level: 98%
 
-      - name: Ruby on Rails
-        level: 85%
+#       - name: HTML5 & CSS
+#         level: 95%
 
-      - name: Sketch & Photoshop
-        level: 60%
+#       - name: Ruby on Rails
+#         level: 85%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+#       - name: Sketch & Photoshop
+#         level: 60%
+
+# footer: >
+#     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
