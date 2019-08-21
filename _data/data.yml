@@ -67,7 +67,7 @@ experiences:
 
     - role: Software Engineer Intern
       time: May 2017 - Sep 2017
-      company: ET International, Wilmington, USA
+      company: ET International, Wilmington, US
       details: |
           - Designed a C++ framework for Convolutional Neural Network using codelet execution model.(https://ieeexplore.ieee.org/document/8754424)
           - Achieved 26% faster processing speed than vanilla Tensorflow for AlexNet inference on CPU.
