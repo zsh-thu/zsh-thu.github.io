@@ -69,7 +69,7 @@ experiences:
       time: May 2017 - Sep 2017
       company: ET International, Wilmington, US
       details: |
-          - Designed a C++ framework for Convolutional Neural Network using codelet execution model.(https://ieeexplore.ieee.org/document/8754424)
+          - Designed a C++ framework for Convolutional Neural Network using codelet execution model.
           - Achieved 26% faster processing speed than vanilla Tensorflow for AlexNet inference on CPU.
           - Built APIs for users to use the framework without the knowledge of underlying execution model.
 
@@ -78,7 +78,7 @@ experiences:
       company: Tencent, Beijing, China
       details: |
           - Designed a Markov-chain based location prediction system that uses history trajectories to predict user location.
-          - Implemented Gibbs sampling to achieve 34% higher prediction accuracy than baseline on sparse trajectories.[paper1](https://ieeexplore.ieee.org/document/8108725)[paper2](https://dl.acm.org/citation.cfm?id=3314414)
+          - Implemented Gibbs sampling to achieve 34% higher prediction accuracy than baseline on sparse trajectories.
           - Deployed on Hadoop cluster using Hadoop Streaming for production and adopted by Tencent Map Service.
 
 projects:
